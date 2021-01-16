@@ -1,3 +1,8 @@
 function changeTitle() {
-    document.getElementById("title").innerHTML = "HELLO WORLD!";
+    var x = document.getElementById('title');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
 }
