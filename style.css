@@ -1,29 +1,29 @@
 #title {
-    margin: auto;
-    width: 50%;
-    border: 0.3px solid #0f0074bc;
+    height: auto;
     padding: 10px;
+    border: 0.3px solid #0f0074bc;
     text-align: center;
 }
 
-.btn {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 50%;
+.button {
     padding: 10px;
     text-align: center;
     background-color: #555555;
-    font-size: 16px;
+    font-size: 34px;
     border-radius: 4px;
     transition-duration: 0.4s;
+    color: rgba(170, 255, 255, 0.651);
 }
 
-.btn:hover {
+.button:hover {
     background-color: white;
     /* Green */
-    color: 555555;
+    color: #555555;
 }
+
+header {
+    display: flex;
+    margin-top: 20%;
+    justify-content: center;
+    align-items: center;
+} 
