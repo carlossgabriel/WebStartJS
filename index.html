@@ -11,14 +11,16 @@
 </head>
 
 <body>
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" id="buttonTitle" onclick="changeTitle()">Change the title</a>
+        <a href="#" onclick="showTime()">Display time</a>
+    </div>
+    <button class="openbtn" onclick="openNav()">&#9776; Toggle Sidepanel</button>
     <header>
         <h1 id="title">WELCOME</h1>
-        <button id="buttonTitle" class="button  " onclick="changeTitle()" type="button">Click to hide the title</button>
+        <p id="time" onclick="showTime()" class="footer">Current time:</p>
     </header>
-    <div class="content">
-        <p id="time" onclick="showTime()">Current time:</p>
-        <button onclick="showTime()" class="button">SHOW TIME</button>
-    </div>
 </body>
 
 </html>
