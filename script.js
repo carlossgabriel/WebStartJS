@@ -8,3 +8,8 @@ function changeTitle() {
         document.getElementById("buttonTitle").innerHTML = "Click to display the title"
     }
 }
+
+function showTime() {
+    var today = new Date();
+    document.getElementById('time').innerHTML = today.getDate() + "/" + today.getMonth()+1 + "/" + today.getFullYear();
+}

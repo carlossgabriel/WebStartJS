@@ -26,4 +26,10 @@ header {
     margin-top: 20%;
     justify-content: center;
     align-items: center;
-} 
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
