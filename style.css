@@ -1,8 +1,9 @@
 #title {
-    height: auto;
-    padding: 10px;
-    border: 0.3px solid #0f0074bc;
-    text-align: center;
+    font-size: 72px;
+    transition-duration: 1s;
+}
+#title:hover {
+    font-size: 102px;
 }
 
 .button {
@@ -23,9 +24,10 @@
 
 header {
     display: flex;
-    margin-top: 20%;
+    margin-top: 15%;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
 }
 
 .content {
@@ -80,6 +82,7 @@ header {
     color: white;
     padding: 10px 15px;
     border: none;
+    position: sticky;
   }
   
   .openbtn:hover {
