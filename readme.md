@@ -12,3 +12,6 @@ For future reference I'll try to create a documentation with clear uses and scen
 
 - Gif to demonstrate animations:
 ![Side panel and animations](public/hoverAndSidePanel.gif)
+
+- Dashboard implementation with github statistics:
+![Dashboard with github statistics](public/dashboardGit.jpg)
