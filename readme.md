@@ -5,10 +5,10 @@ For future reference I'll try to create a documentation with clear uses and scen
 
 - 1st commit - i was just trying to create a simple button and a title that would dynamically change after a click.
 
-![html demonstration](./1stCommit.jpg)
+![html demonstration](public/1stCommit.jpg)
 
 - Side Panel implementation and testing. Hover effect on the title.
-![Css udpate](./CssUpdateSidePanel.jpg)
+![Css udpate](public/CssUpdateSidePanel.jpg)
 
 - Gif to demonstrate animations:
-![Side panel and animations](./hoverAndSidePanel.gif)
+![Side panel and animations](public/hoverAndSidePanel.gif)
