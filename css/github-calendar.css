@@ -1,5 +1,5 @@
 :root {
-  --color-calendar-graph-day-bg: #dddbdb;
+  --color-calendar-graph-day-bg: #000000;
   --color-calendar-graph-day-L1-bg: #39dd34;
   --color-calendar-graph-day-L2-bg: #45a045;
   --color-calendar-graph-day-L3-bg: #047526;
@@ -18,7 +18,7 @@
 .calendar-graph text.wday,
 .calendar-graph text.month {
     font-size: 10px;
-    fill: #aaa;
+    fill: rgb(0, 0, 0);
 }
 
 .contrib-legend {
@@ -45,7 +45,7 @@
 
 .text-small {
     font-size: 12px;
-    color: #767676;
+    color: #000000;
 }
 
 .calendar-graph {
@@ -57,8 +57,8 @@
 .contrib-column {
     padding: 15px 0;
     text-align: center;
-    border-left: 1px solid #ddd;
-    border-top: 1px solid #ddd;
+    border-left: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
     font-size: 11px;
 }
 
@@ -79,7 +79,7 @@
     line-height: 1.3em;
     font-size: 24px;
     display: block;
-    color: #333;
+    color: rgb(0, 0, 0);
 }
 
 .calendar img.spinner {
